@@ -10,7 +10,7 @@
   --color-orange: rgb(235, 152, 0);
 }
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   background-color: #e1e1e1;
 }
