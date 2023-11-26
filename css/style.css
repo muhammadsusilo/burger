@@ -137,7 +137,7 @@ figure img {
   box-shadow: 5px 5px 5px #242424c4;
 }
 /* Section about end */
-/* Section About start */
+/* Section service start */
 .services-text p {
   margin: 1rem auto;
   max-width: 60%;
@@ -163,7 +163,10 @@ figure img {
 .services-section p {
   text-align: center;
 }
-/* Section About end */
+/* Section service end */
+/* section service start */
+
+/* section service end */
 /* footer start */
 footer {
   padding: 40px 17%;
