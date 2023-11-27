@@ -164,9 +164,33 @@ figure img {
   text-align: center;
 }
 /* Section service end */
-/* section service start */
-
-/* section service end */
+/* section sejarah start */
+/* section.sejarah {
+  background-color: gray;
+}
+.sejarahKotak {
+  display: flex;
+}
+.sejarah h2 {
+  text-align: center;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+.text p {
+  line-height: 1.5rem;
+}
+.sejarahKotak .text > p >span {
+  color: rgb(110, 184, 110);
+  font-weight:bold;
+  background-color: black;
+  padding: 5px;
+}
+.sejarah img {
+  width: 45%;
+  border-radius: 10px;
+  object-fit: cover;
+} */
+/* section sejarah end */
 /* footer start */
 footer {
   padding: 40px 17%;
@@ -174,6 +198,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 2rem;
   background-color: var(--header-color);
+  /* position: fixed; */
 }
 
 .home,
@@ -250,6 +275,13 @@ footer a:hover {
   }
   .about {
     margin-top: 1rem;
+  }
+  .sejarahKotak {
+    flex-wrap: wrap;
+  }
+  .sejarah img {
+    width: 400px;
+    margin: auto;
   }
 }
 
